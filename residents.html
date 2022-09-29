@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="image/x-icon" href="img/logo.png" rel="shortcut icon">
+	<link type="Image/x-icon" href="img/logo.png" rel="icon">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220929192856" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20220929192856">
+	<title>Для жителей</title>
+</head>
+
+<body>
+	<header class="header lock-padding">
+	<div class="header__container t-container">
+		<div class="header__body">
+			<a href="index.html" class="header__logo">
+				<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="логотип"></picture>
+			</a>
+			<div class="header__burger">
+				<span></span>
+			</div>
+			<nav class="header__menu">
+				<ul class="header__list">
+					<a href="index.html" class="header__link">
+						<li>
+							<p>Компания</p>
+						</li>
+					</a>
+					<a href="residents.html" class="header__link">
+						<li>
+							<p>Для жителей</p>
+						</li>
+					</a></li>
+					<a href="objects.html" class="header__link">
+						<li>
+							<p>Объекты</p>
+						</li>
+					</a>
+					<a href="partners.html" class="header__link">
+						<li>
+							<p>Партнёры</p>
+						</li>
+					</a>
+					<a href="documents.html" class="header__link">
+						<li>
+							<p>Документация</p>
+						</li>
+					</a>
+					<a href="contacts.html" class="header__link">
+						<li>
+							<p>Контакты</p>
+						</li>
+					</a>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+	<main class="main">
+		<section class="residents">
+			<div class="residents__container t-container">
+				<h1 class="title">Для жителей</h1>
+				<div class="residents__tabs-list">
+					<div class="residents__tabs-listItem active" data-tab="tab-1">Заявка на приём</div>
+					<div class="residents__tabs-listItem " data-tab="tab-2">Вопросы и ответы</div>
+				</div>
+				<div class="residents__tab tab-1 active">
+					<form action="" method="">
+						<div class="name">
+							<label for="name">ФИО</label>
+							<input id="name" type="text" name="name">
+						</div>
+						<div class="mail">
+							<label for="email">E-mail*</label>
+							<input id="email" type="email" name="email" required>
+						</div>
+						<div class="phoneNumber">
+							<label for="tel">Телефон</label>
+							<input id="tel" type="text" name="tel">
+						</div>
+						<div class="adress">
+							<label for="adress">Адрес</label>
+							<input id="adress" type="text" name="adress">
+						</div>
+						<div class="message">
+							<label for="message">Cообщение</label>
+							<textarea id="message" name="message" cols="30" rows="10"></textarea>
+						</div>
+						<button>Отправить</button>
+					</form>
+
+				</div>
+				<div class="residents__tab tab-2 ">
+					<form action="" method="">
+						<div class="name">
+							<label for="name">Представьтесь, пожалуйста*</label>
+							<input id="name" type="text" name="name" required>
+						</div>
+						<div class="adress">
+							<label for="adress">Ваш адрес</label>
+							<input id="adress" type="text" name="adress">
+						</div>
+						<div class="mail">
+							<label for="email">E-mail для обратной связи*</label>
+							<input id="email" type="email" name="email" required>
+						</div>
+						<div class="message">
+							<label for="message">Ваш вопрос*</label>
+							<textarea id="message" name="message" required cols="30" rows="10"></textarea>
+						</div>
+						<button type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<footer></footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220929192856"></script>
+	<script src='js/app.min.js?_v=20220929192856'></script>
+</body>
+
+</html>
